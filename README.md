@@ -35,3 +35,7 @@ git pull
 
 ### Create your own branch
 `git checkout -b <branch_name>`
+
+## Tools
+- [Git Auto-completion](https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks)
+- [Git Propmt (Color, Branch name)](https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh)
