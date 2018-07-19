@@ -32,3 +32,6 @@ git pull
 - Create a fork of repo
 - Make changes
 - Create PR to main repo
+
+### Create your own branch
+`git checkout -b <branch_name>`
