@@ -1,5 +1,5 @@
 'use strict';
 
 function ab() {
-    console.log('Git Introduction');
+    console.log('This is a change form master');
 }
