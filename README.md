@@ -26,12 +26,16 @@ git pull
 - `git stash`
 - `git checkout master`
 - `git checkout feature_ab`
-- `git apply`
+- `git stash apply`
 
 ### Fork
 - Create a fork of repo
 - Make changes
 - Create PR to main repo
+
+#### Get changes from upstream
+- `git fetch upstream`
+- `git merge upstream/<branch> <branch>`
 
 ### Create your own branch
 `git checkout -b <branch_name>`
