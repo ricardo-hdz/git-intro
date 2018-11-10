@@ -48,7 +48,7 @@ Instalar Git utilizando los siguientes enlaces dependendiendo del sistema operat
 
 Mac OS X -> [Git](http://sourceforge.net/projects/git-osx-installer/)
 
-Windows -> [Git](hhttps://gitforwindows.org/)
+Windows -> [Git](https://git-scm.com/download/win)
 
 Para instalar Git basta con descargar el software de instalación y seguir las instrucciones.
 
