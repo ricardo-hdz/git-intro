@@ -2,7 +2,7 @@
 Básicos de Git y Github
 ========
 
-Crear un Repositorio
+Crear un Repositorio mediante Git Clone
 --------
 Primero creamos un repositorio en Github haciendo click en donde el botón New en la página de repositorios de nuestro perfil en [Github](https://github.com/ricardo-hdz?tab=repositories).
 
@@ -10,15 +10,23 @@ Ahí se indicará el nombre del proyecto/repositorio (Project Name) y opcionalme
 
 Una vez creado el repositorio en Github se deberán realizar los siguientes pasos en nuestra computadora:
 
-1. Crear el directorio (carpeta) en donde se alojará el repo. Para ello recomiendo crear una carpeta en nuestra carpeta de usuario (mac) / disco local c (windows) y alojar ahí todos los repos.
+1. En la terminal, ir a la carpeta en donde se alojara el repositorio
 
-2. En línea de comandos (terminal/cmd) navegar hasta el repo. Deberemos llegar hasta el repositorio mediante la línea de comandos, usando el comando *cd*. Ej: 
+2. Ejecutar, `git clone <direccion_repositorio>` donde direccion_repositorio es las direccion del repositorio en Github.
 
-3. Inicializar el repo de git. Una vez se llega al que será el directorio del repo se debe introducir lo siguiente para iniciar el repositorio en **git**.
+
+Crear un Repositorio localmente
+--------
+
+1. Crear el directorio (carpeta) en donde se alojará el repositorio.
+
+2. En la linea de comandos ir hasta el directprio creado. Por ejemplo, `cd /directorio/de/proyecto`
+
+3. Inicializar el repositorio de git con el siguiente comando:
 
 `<git init>`
 
-4. Añadir la dirección remota del repositorio de github. Se deberá indicar dónde estará alojado el repo. 
+4. Crear el repositorio en Github. Después añadir la dirección remota del repositorio utilizando el siguiente comandoÑ
 
 `<git remote add origin git@github.com:nombreusuario/nombrerepo.git>`
 
@@ -26,10 +34,16 @@ Una vez creado el repositorio en Github se deberán realizar los siguientes paso
 Clonar un Repositorio
 --------
 
-TBD
+```
+git clone <repositorio>
+```
 
 Comandos básicos de Git
 ========
+
+```
+git commit - Sirve para guardar los cambios a un archivo en la historia de Git
+```
 
 1. Añadir uno o varios archivos a un commit.
 2. Realizar un commit
